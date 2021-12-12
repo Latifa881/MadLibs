@@ -16,6 +16,7 @@
 		C3DB901B27661E29008EB57D /* MadLibsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB901A27661E29008EB57D /* MadLibsTests.swift */; };
 		C3DB902527661E29008EB57D /* MadLibsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB902427661E29008EB57D /* MadLibsUITests.swift */; };
 		C3DB902727661E29008EB57D /* MadLibsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB902627661E29008EB57D /* MadLibsUITestsLaunchTests.swift */; };
+		C3DB903427661EEF008EB57D /* AddInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB903327661EEF008EB57D /* AddInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C3DB902027661E29008EB57D /* MadLibsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MadLibsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3DB902427661E29008EB57D /* MadLibsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsUITests.swift; sourceTree = "<group>"; };
 		C3DB902627661E29008EB57D /* MadLibsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MadLibsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3DB903327661EEF008EB57D /* AddInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C3DB900527661E24008EB57D /* SceneDelegate.swift */,
 				C3DB900727661E24008EB57D /* ViewController.swift */,
 				C3DB900927661E24008EB57D /* Main.storyboard */,
+				C3DB903327661EEF008EB57D /* AddInfoViewController.swift */,
 				C3DB900C27661E29008EB57D /* Assets.xcassets */,
 				C3DB900E27661E29008EB57D /* LaunchScreen.storyboard */,
 				C3DB901127661E29008EB57D /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				C3DB900827661E24008EB57D /* ViewController.swift in Sources */,
 				C3DB900427661E24008EB57D /* AppDelegate.swift in Sources */,
+				C3DB903427661EEF008EB57D /* AddInfoViewController.swift in Sources */,
 				C3DB900627661E24008EB57D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

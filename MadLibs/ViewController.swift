@@ -7,13 +7,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewInfoViewController: UIViewController {
 
+    var output:String?
+    
+    @IBOutlet weak var outputLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
 
+    @IBAction func unwind( _ seg: UIStoryboardSegue) {
+        
+        guard let myOutput = output else {return}
+        outputLabel.text = myOutput
+        
+        }
 }
 
